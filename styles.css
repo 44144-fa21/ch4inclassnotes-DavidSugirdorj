@@ -2,6 +2,7 @@ body {
     background-color: #b7ffbf ;;
     color: #333333;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(trilliumgradient.png);
 }
 
 header {
@@ -18,7 +19,7 @@ h2 {
     background-repeat: no-repeat;
     padding-left: 30px;
 }
-p {font-size: 30px;}
+p {font-size: .90em;}
 
 ul {
     font-weight: bold;
@@ -26,19 +27,14 @@ ul {
 
 nav{
     font-weight: bold;
-    font-size: 30px;
+    font-size: .75em;
 }
 
 footer{
-    font-size: 30px;
+    font-size: .75em;
     font-style: italic;
-    border-top: #aeaed4;
+    border-top: thin solid #aeaed4;
     padding-top: 10px;
-    margin-top: 20px;
-}
-
-img{
-    border-style: none;
 }
 
 #container{
@@ -48,8 +44,6 @@ img{
     margin: auto;
     box-shadow: 5px 5px 5px #1e1e1e;
     background: url(trilliumfoot.gif) no-repeat bottom right, #FFFFFF;
-    min-width: 800px;
-    max-width: 900px;
 }
 
 
